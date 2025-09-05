@@ -1,4 +1,4 @@
-import { Rank, Category, RankVisualData } from './types';
+import { Rank, Category, RankVisualData } from './types.ts';
 import React from 'react';
 
 // FIX: Converted from JSX to React.createElement to be compatible with .ts files.

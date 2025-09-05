@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
-import LoginScreen from './components/LoginScreen';
-import MainScreen from './components/MainScreen';
+import LoginScreen from './components/LoginScreen.tsx';
+import MainScreen from './components/MainScreen.tsx';
 
 const App: React.FC = () => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);

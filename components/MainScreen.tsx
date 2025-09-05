@@ -1,9 +1,8 @@
-
 import React from 'react';
-import { useAppState } from '../hooks/useAppState';
-import { CATEGORIES_DATA } from '../constants';
-import CategoryCard from './CategoryCard';
-import RankVisualizer from './RankVisualizer';
+import { useAppState } from '../hooks/useAppState.ts';
+import { CATEGORIES_DATA } from '../constants.ts';
+import CategoryCard from './CategoryCard.tsx';
+import RankVisualizer from './RankVisualizer.tsx';
 
 const MainScreen: React.FC = () => {
   const { currentRank, completedTasks, toggleTask, progressPercentage, justRankedUp } = useAppState();

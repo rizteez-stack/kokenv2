@@ -1,7 +1,6 @@
-
 import React from 'react';
-import { Rank } from '../types';
-import { RANK_VISUALS } from '../constants';
+import { Rank } from '../types.ts';
+import { RANK_VISUALS } from '../constants.ts';
 
 interface RankVisualizerProps {
   currentRank: Rank;

@@ -1,7 +1,6 @@
-
 import { useState, useEffect, useCallback } from 'react';
-import { Rank } from '../types';
-import { CATEGORIES_DATA } from '../constants';
+import { Rank } from '../types.ts';
+import { CATEGORIES_DATA } from '../constants.ts';
 
 const APP_STATE_KEY = 'kokenSistemiAppState';
 
